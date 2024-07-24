@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    height: 200vh;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: whitesmoke;
+    left: 0;
+    top: 0;
+    border-right: 1px solid whitesmoke;
+    text-align: center;
+}
+.container{
+    height: 150px;
+    width: 180px;
+    background-color:  darkcyan;
+    color: whitesmoke;
+    line-height: 0.2;
+    margin-bottom: 20px;
+}
+.pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 8px;
+    display: block;
+}
+nav a:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo{
+    margin-top: 50px;
+}
+.msg,.link,.insta{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.content{
+    padding: 20px;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 0.5;
+}
+.main-heading{
+    font-size: smaller;
+    color: goldenrod;
+    margin-left: 15px;
+}
+.sub-heading{
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-left: 15px;
+}
+.intro-text{
+    font-size: medium;
+    color: whitesmoke;
+    margin-left: 15px;
+}
+#work1{
+    height: 200px;
+    background-color: darkcyan;
+    background-image: url('https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    border: 1px solid whitesmoke;
+    margin-bottom: 20px;
+}
+#work2{
+    height: 200px;
+    background-color: darkcyan;
+    background-image: url('https://www.shutterstock.com/image-vector/sports-car-vehicle-silhouette-front-260nw-2247123001.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    border: 1px solid whitesmoke;
+    margin-bottom: 60px;
+}
+.card{
+    margin-left: 360px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 8px;
+    display: block;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.ab1{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    box-shadow: 0px 4px 8px rgba(163, 158, 158, 0.1);
+    text-align: left;
+    transition: transform 0.3 ease-in-out;
+}
+.ab1:hover{
+    transform: translateY(30px);
+    cursor: pointer;
+}
+.ab1 img{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+h1{
+    margin-top: 30px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+#contact{
+    color: whitesmoke;
+    line-height: 0.2;
+}
+.btn1{
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    transition: transform 0.2s ease-in-out;
+}
+.btn1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background: linear-gradient(whitesmoke,goldenrod);
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+footer a{
+    color: goldenrod;
+}
+
